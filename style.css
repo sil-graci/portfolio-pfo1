@@ -214,6 +214,7 @@ textarea:focus-visible {
   height: min(240px, 55vw);
   object-fit: cover;
   border-radius: 50%;
+  object-position:70%;
   border: 4px solid var(--paper);
   outline: 3px solid var(--teal);
   outline-offset: 4px;
