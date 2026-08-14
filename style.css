@@ -474,6 +474,27 @@ textarea:focus-visible {
   color: #d7e0d9;
 }
 
+/* Efecto "typewriter": el texto se revela caracter por caracter,
+   como si se estuviera tipeando en vivo dentro de la terminal. */
+.terminal-line .typed {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: bottom;
+  width: 0;
+  animation: typing 2.2s steps(28, end) forwards;
+  animation-delay: 0.4s;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 .prompt {
   color: var(--sun);
   margin-right: 0.4em;
@@ -567,6 +588,10 @@ textarea:focus-visible {
   }
   .cursor {
     animation: none;
+  }
+  .terminal-line .typed {
+    animation: none;
+    width: auto;
   }
   .btn:hover,
   .skill-chip:hover {
