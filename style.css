@@ -527,10 +527,7 @@ textarea:focus-visible {
     text-align: left;
   }
 
-  /* En column-reverse, flex-basis pasa a controlar la ALTURA
-     en vez del ancho, por eso .hero-text y .personal-copy
-     quedaban con 420px/460px de alto mínimo reservado.
-     Lo anulamos para que se ajusten al contenido real. */
+  /* En column-reverse, flex-basis afecta la altura, no el ancho */
   .hero-text,
   .personal-copy {
     flex-basis: auto;
@@ -554,9 +551,7 @@ textarea:focus-visible {
   }
 }
 
-/* Pantallas muy chicas: todavía menos aire, porque acá
-   el contenido siempre queda apilado (column-reverse) y
-   los gaps/paddings pensados para desktop se notan de más */
+/* menos aire entre secciones en mobile */
 @media (max-width: 480px) {
   .section {
     padding-block: 0.6rem;
