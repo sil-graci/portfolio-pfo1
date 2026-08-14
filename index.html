@@ -166,57 +166,55 @@
 
       <!-- Contacto: formulario accesible con labels + medios de contacto directos -->
       <section
-        id="contacto"
-        class="section section-alt"
-        aria-labelledby="contacto-title"
-      >
-        <div class="wrap contact-grid">
-          <div class="contact-copy">
-            <h2 id="contacto-title">Contacto</h2>
-            <p>¿Querés escribirme? Podés hacerlo por acá.</p>
-            <ul class="contact-links">
-              <li>
-                <a href="mailto:contacto@ejemplo.com">contacto@ejemplo.com</a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/sil-graci"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >github.com/sil-graci</a
-                >
-              </li>
-            </ul>
-          </div>
-          <form
-            class="contact-form"
-            action="mailto:tu-email@ejemplo.com"
-            method="post"
-            enctype="text/plain"
+  id="contacto"
+  class="section section-alt"
+  aria-labelledby="contacto-title"
+>
+  <div class="wrap contact-grid">
+    <div class="contact-copy">
+      <h2 id="contacto-title">Contacto</h2>
+      <p>Podés enviarme un mensaje a través del formulario o visitar mi perfil:</p>
+      
+      <ul class="contact-links">
+        <li>
+          <a
+            href="https://github.com/sil-graci"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <div class="field">
-              <label for="name">Nombre</label>
-              <input type="text" id="name" name="name" required />
-            </div>
-            <div class="field">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required />
-            </div>
-            <div class="field">
-              <label for="message">Mensaje</label>
-              <textarea
-                id="message"
-                name="message"
-                rows="4"
-                required
-              ></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">
-              Enviar mensaje
-            </button>
-          </form>
-        </div>
-      </section>
+            github.com/sil-graci
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <form class="contact-form" action="#" method="post">
+      <div class="field">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div class="field">
+        <label for="message">Mensaje</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          required
+        ></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">
+        Enviar mensaje
+      </button>
+    </form>
+  </div>
+</section>
     </main>
 
     <footer class="terminal-footer">
