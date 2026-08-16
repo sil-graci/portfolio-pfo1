@@ -482,7 +482,7 @@ textarea:focus-visible {
   white-space: nowrap;
   vertical-align: bottom;
   width: 0;
-  animation: typing 2.2s steps(28, end) forwards;
+  animation: typing 2.2s steps(22, end) forwards;
   animation-delay: 0.4s;
 }
 
@@ -491,7 +491,7 @@ textarea:focus-visible {
     width: 0;
   }
   to {
-    width: 100%;
+    width: 20ch;
   }
 }
 
