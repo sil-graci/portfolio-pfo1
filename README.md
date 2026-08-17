@@ -16,7 +16,7 @@ Es un sitio estático, no necesita instalación. Alcanza con abrir `index.html` 
 portfolio-landing/
 ├── index.html
 ├── style.css
-├── assets/
+├── images/
 │   ├── avatar.png│  
 └── README.md
 ```
@@ -30,7 +30,7 @@ portfolio-landing/
 - **Animaciones:** cursor parpadeante (hero y footer) vía `@keyframes`, subrayado animado en los enlaces del nav, elevación sutil al pasar el mouse por botones y chips de habilidades, y un efecto typewriter en el mensaje del footer que revela el texto caracter por caracter al cargar la página. Se respeta `prefers-reduced-motion` para desactivar las animaciones si el usuario lo prefiere.
 - **Responsive:** unidades relativas y `clamp()` para tipografía fluida, grillas con `auto-fit`/`minmax()` que se adaptan solas, y breakpoints en `720px` y `480px` donde el header y las secciones con dos columnas pasan a una sola columna y se reduce el espaciado para pantallas chicas.
 - **Accesibilidad:** etiquetas semánticas (`header`, `nav`, `main`, `section`, `footer`), `aria-labelledby` conectando cada sección con su título, foco visible con `:focus-visible`, y todas las imágenes con texto alternativo descriptivo.
-- **Imágenes:** el avatar del hero (`assets/avatar.png`) es una ilustración generada con Microsoft Copilot a partir de una foto propia (ver declaración de IA más abajo). 
+- **Imágenes:** el avatar del hero (`images/avatar.png`) es una ilustración generada con Microsoft Copilot a partir de una foto propia (ver declaración de IA más abajo). 
 
 ## Pendientes antes de entregar
 - [ ] Publicar en Vercel y pegar la URL arriba.
@@ -47,7 +47,7 @@ portfolio-landing/
 
 ### Microsoft Copilot
 
-- **Herramienta y para qué la usé:** generación de la ilustración/avatar (`assets/avatar.png`) que se muestra en el hero de la landing, a partir de una foto propia que le di como referencia.
+- **Herramienta y para qué la usé:** generación de la ilustración/avatar (`images/avatar.png`) que se muestra en el hero de la landing, a partir de una foto propia que le di como referencia.
 - **Plan:** gratuito.
 - **Experiencia previa con la herramienta:** la usé antes para generar otras imágenes, aunque no para un avatar de uso personal como este.
 - **Qué revisé/adapté con criterio propio:** generé varias variantes a partir de la consigna y elegí la que mejor representaba lo que buscaba. Después ajusté mediante CSS su recorte, formato circular y borde (`object-fit`, `border-radius`, `outline`) para integrarla mejor con la paleta de colores de la landing, probando distintos valores en el navegador hasta llegar al resultado final.
