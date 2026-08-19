@@ -420,7 +420,7 @@ a {
 }
 
 /* =========================================================
-   FOOTER — "terminal" (elemento distintivo de la landing)
+   FOOTER - Terminal Layout
    ========================================================= */
 .terminal-footer {
   background: var(--ink);
@@ -507,7 +507,7 @@ a {
 /* =========================================================
    RESPONSIVE
    ========================================================= */
-/* Ajustes para tablets y pantallas medianas */
+/* Tablet & medium screen adjustments */
 @media (max-width: 720px) {
   .site-header nav ul {
     gap: 0.9rem;
@@ -547,7 +547,7 @@ a {
   }
 }
 
-/* Ajustes adicionales para mobile (pantallas chicas) */
+/* Mobile screen adjustments */
 @media (max-width: 600px) {
   .section {
     padding-block: 0.6rem;
