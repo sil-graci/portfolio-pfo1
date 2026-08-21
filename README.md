@@ -2,7 +2,7 @@
 
 Landing de portafolio personal desarrollada en HTML y CSS puro para la materia Desarrollo de Sistemas Web (Back End) de la Tecnicatura en Desarrollo de Software. Presenta mi perfil, mis habilidades, una sección personal y una forma de contacto, con un enlace visible a mi GitHub.
 
-**🔗 URL publicada en Vercel:** (https://portfolio-pfo1.vercel.app/)  
+**🔗 URL publicada en Vercel:** [portfolio-pfo1.vercel.app](https://portfolio-pfo1.vercel.app/)
 
 **🔗 Repositorio:**  https://github.com/sil-graci/portfolio-pfo1
 
