@@ -2,7 +2,7 @@
 
 Landing de portafolio personal desarrollada en HTML y CSS puro para la materia Desarrollo de Sistemas Web (Back End) de la Tecnicatura en Desarrollo de Software. Presenta mi perfil, mis habilidades, una sección personal y una forma de contacto, con un enlace visible a mi GitHub.
 
-**🔗 URL publicada en Vercel:** _Falta agregar_  
+**🔗 URL publicada en Vercel:** (https://portfolio-pfo1.vercel.app/)  
 
 **🔗 Repositorio:**  https://github.com/sil-graci/portfolio-pfo1
 
@@ -33,10 +33,6 @@ portfolio-landing/
 - **Responsive:** unidades relativas y `clamp()` para tipografía fluida, grillas con `auto-fit`/`minmax()` que se adaptan solas, y breakpoints en `720px` y `480px` donde el header y las secciones con dos columnas pasan a una sola columna y se reduce el espaciado para pantallas chicas.
 - **Accesibilidad:** etiquetas semánticas (`header`, `nav`, `main`, `section`, `footer`), `aria-labelledby` conectando cada sección con su título, foco visible con `:focus-visible`, y todas las imágenes con texto alternativo descriptivo.
 - **Imágenes:** el avatar del hero (`images/avatar.png`) es una ilustración generada con Microsoft Copilot a partir de una foto propia (ver declaración de IA más abajo). 
-
-## Pendientes antes de entregar
-- [ ] Publicar en Vercel y pegar la URL arriba.
-- [ ] Pegar el link de este repositorio en la planilla de entregas.
 
 ## Declaración de uso de IA
 
